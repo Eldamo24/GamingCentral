@@ -38,6 +38,7 @@
 
 .bx{
     margin-right: 5px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,3 +52,16 @@
         margin-bottom: 20px;
     }
 }
+
+/* Fin footer */
+
+/* estilos del main */
+
+/* Estilos del carrusel */
+
+/* Fin de estilos del carrusel */
+
+/* Fin de estilos del main */
+
+
+
