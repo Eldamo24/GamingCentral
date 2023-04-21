@@ -160,6 +160,10 @@
     color: #1a1b20;
     font-size: 20px;
 }
+
+.link-carrusel:hover{
+    color: #dec852;
+}
 /* Fin carrusel */
 
 /* Fin de estilos del main */
