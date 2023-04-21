@@ -148,7 +148,18 @@
 /* Fin estilo de tarjetas */
 
 /* Carrusel */
+.carrusel-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.link-carrusel{
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #1a1b20;
+    font-size: 20px;
+}
 /* Fin carrusel */
 
 /* Fin de estilos del main */
