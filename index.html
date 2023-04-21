@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo-chico.png" type="image/x-icon">
-    <script src="js/carrusel.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Gaming Central</title>
 </head>
 
 <body class="main-page">
     <main>
-        <div class="main-titles">
+        <div class="main-titles" data-aos="fade-right">
             <h1>Ultimas novedades</h1>
         </div>
-        <div class="grid-container">
+        <div class="grid-container" data-aos="fade-up">
             <div class="card-container">
                 <div>
                     <img src="img/RE4.jpg" alt="RE4" width="100%" class="card-img">
@@ -71,10 +71,10 @@
                 </div>
             </div>
         </div>
-        <div class="main-titles">
+        <div class="main-titles" data-aos="fade-right">
             <h1>Accesorios gamer</h1>
         </div>
-        <div class="grid-container">
+        <div class="grid-container" data-aos="fade-up">
             <div class="card-container">
                 <div>
                     <img src="img/teclado.jpg" alt="teclado" width="100%" class="card-img">
@@ -128,10 +128,10 @@
                 </div>
             </div>
         </div>
-        <div class="main-titles">
+        <div class="main-titles" data-aos="fade-right">
             <h1>Ofertas de la semana</h1>
         </div>
-        <div class="grid-container">
+        <div class="grid-container" data-aos="fade-up">
             <div class="card-container">
                 <div>
                     <img src="img/onePiece.jpg" alt="One piece" width="100%" height="150px" class="card-img">
@@ -210,6 +210,12 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
