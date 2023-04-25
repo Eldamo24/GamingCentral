@@ -98,12 +98,12 @@
         grid-template-columns: repeat(1, auto);
     }
 
-    .payment-methods{
+    .payment-methods {
         display: flex;
         flex-direction: column;
     }
 
-    .different-methods{
+    .different-methods {
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -113,7 +113,7 @@
 
 .card-container {
     width: 250px;
-    height: 300px;
+    height: 350px;
     background-color: #1a1b20;
     border-radius: 15px;
     margin-top: 20px;
@@ -155,30 +155,36 @@
     background-color: #dec852;
 }
 
+.card-price {
+    margin-top: 30px;
+}
+
 /* Fin estilo de tarjetas */
 
 /* Carrusel */
-.carrusel-buttons{
+.carrusel-buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.link-carrusel{
+.link-carrusel {
     margin: 10px 30px;
     text-decoration: none;
     color: #1a1b20;
     font-size: 20px;
 }
 
-.link-carrusel:hover{
+.link-carrusel:hover {
     color: #dec852;
 }
+
+
 /* Fin carrusel */
 
 /* Medios de pago */
 
-.payment-methods{
+.payment-methods {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
@@ -186,20 +192,20 @@
     color: #dec852;
 }
 
-.different-methods{
+.different-methods {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.pay-cards{
+.pay-cards {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.pay-cards img{
+.pay-cards img {
     margin-right: 20px;
     margin-top: 5px;
 }
