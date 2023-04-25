@@ -97,6 +97,16 @@
         width: 100%;
         grid-template-columns: repeat(1, auto);
     }
+
+    .payment-methods{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .different-methods{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 /* Estilo de tarjetas */
@@ -165,5 +175,36 @@
     color: #dec852;
 }
 /* Fin carrusel */
+
+/* Medios de pago */
+
+.payment-methods{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #dec852;
+}
+
+.different-methods{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-cards img{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/* Fin de medios de pago */
 
 /* Fin de estilos del main */
