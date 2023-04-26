@@ -214,3 +214,74 @@
 /* Fin de medios de pago */
 
 /* Fin de estilos del main */
+
+/* estilo sobrenosotros */
+.claseh2{
+    text-align: center;
+    font-size: 1em;
+    color: #e2d384;
+    font-size: 30px;
+    
+}
+
+.claseh3{
+    text-align: center;
+    font-size: 1em;
+    color: #e2d384;
+    font-size: 30px;
+
+}
+
+
+.clasep{
+    padding: 10px 15px 5px;
+    margin: 5px;
+    color: #eaeaea;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+
+}
+
+.control{
+    margin: auto;
+    height:124px;
+    width:calc(500px / 4); 
+    background:url('../img/control.png');
+    margin-top:10%;
+    animation:animate 3s steps(4) infinite;
+    
+}
+@keyframes animate{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -500px;/* because total width of the image is 920px*/
+    }
+}
+
+.kof{
+    margin: auto;
+    height:500px;
+    width:calc(52000px / 65); 
+    background:url('../img/kof.png');
+    margin-top:10%;
+    animation:animate 6s steps(65) infinite;
+    
+}
+@keyframes animate{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -52000px;/* because total width of the image is 920px*/
+    }
+}
+
+.bodynosotros{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
+    }
