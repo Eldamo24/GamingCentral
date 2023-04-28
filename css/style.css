@@ -162,21 +162,43 @@
 /* Fin estilo de tarjetas */
 
 /* Carrusel */
-.carrusel-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.slider-frame {
+	width: 100%;
+    height: 600px;
+	overflow: hidden;
+    margin-bottom: 30px;
 }
 
-.link-carrusel {
-    margin: 10px 30px;
-    text-decoration: none;
-    color: #1a1b20;
-    font-size: 20px;
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
 }
 
-.link-carrusel:hover {
-    color: #dec852;
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    height: 600px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
 }
 
 
