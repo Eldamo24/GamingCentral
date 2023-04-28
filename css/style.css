@@ -244,7 +244,7 @@
 
 }
 
-.control{
+.control3{
     margin: auto;
     height:124px;
     width:calc(500px / 4); 
@@ -262,26 +262,61 @@
     }
 }
 
-.kof{
-    margin: auto;
-    height:500px;
-    width:calc(52000px / 65); 
-    background:url('../img/kof.png');
-    margin-top:10%;
-    animation:animate 6s steps(65) infinite;
-    
-}
-@keyframes animate{
-    from{
-        background-position: 0;
-    }
-    to{
-        background-position: -52000px;/* because total width of the image is 920px*/
-    }
-}
+
 
 .bodynosotros{
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
+    }
+
+.header{
+        grid-area: header;
+        }
+    
+.grid-container-nosotros{
+        display: grid;
+        gap:10px;
+        text-align: center;
+        padding: auto;
+        grid-template-areas: 
+        "header" 
+    }
+    @media(min-width:600px){
+        .grid-container-nosotros{
+            grid-template-columns: 200px auto;
+            grid-template-rows:100px auto auto 100px;
+            grid-template-areas: 
+            "header header"; 
+
+        }
+    }
+    
+    @media(min-width:900px){
+        .grid-container-nosotros{
+            /* grid-template-columns: 200px 200px;
+            grid-template-rows:100px 50px 50px 100px;
+            grid-template-areas  */
+            grid-template: 
+            "header header header" 100px
+            200px auto;
+        }
+    }
+
+
+.sprite{
+        margin: auto;
+        height:166px;
+        width:calc(1400px / 7); /* because there are 8 frames in one picture so i divide it by 8 with its original width to get 1 frame width */
+        background:url('../img/sprite.png');
+        margin-top:10%;
+        animation:animate 5s steps(7) infinite /* steps(8) means the animation will be done in 8 steps i do 8 steps because there are 8 images in 1 image */; 
+    }
+    @keyframes animate{
+        from{
+            background-position: 0;
+        }
+        to{
+            background-position: -1400px;/* because total width of the image is 920px*/
+        }
     }
