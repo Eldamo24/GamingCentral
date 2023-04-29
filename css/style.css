@@ -42,6 +42,53 @@
     cursor: pointer;
 }
 
+#myImage {
+    margin-top: 93px;
+}
+
+/* ESTILOS DEL NAVBAR */
+
+header {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    background-color: #1a1b20;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.navList li a {
+    text-decoration: none;
+    color: #eaeaea;
+    padding: 8px 10px;
+}
+
+.navList li a:hover {
+    background-color: #e2d384;
+    color: #1a1b20;
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.openMenu,
+.closeMenu {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         display: flex;
@@ -52,6 +99,79 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    #myImage {
+        margin-top: 60px;
+    }
+
+/* ESTILOS DEL NAVBAR MQ*/
+
+    .openMenu,
+    .closeMenu {
+        display: block;
+    }
+
+
+    .openMenu {
+        display: flex;
+        top: 3%;
+        left: 90%;
+        color: #eaeaea;
+    }
+    .closeMenu {
+        display: flex;
+        flex-direction: column;
+        top: 4%;
+        left: 89%;
+        background-color: #e2d384;
+        border: none;
+        position: absolute;
+    }
+
+    .navList {
+        gap: 50px;
+        font-weight: bold;
+    }
+
+    .navList li a {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 30%;
+    }
+
+    .nav {
+        display: flex;
+        visibility: hidden;
+        position: absolute;
+        align-items: center;
+        gap: 20px;
+        background-color: #e2d384;
+        min-height: 797px;
+        height: 100vh;
+        left: 0;
+        width: 100%;
+        top: 0px;
+    }
+
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navList {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .navList li a {
+        color: #1a1b20;
+    }
+
+    header{
+        height: 60px;
+        width: 100%;
+    } 
 }
 
 /* Fin footer */

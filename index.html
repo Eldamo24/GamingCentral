@@ -10,10 +10,29 @@
     <link rel="shortcut icon" href="img/logo-chico.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="js/carrusel.js"></script>
+    <script src="https://kit.fontawesome.com/263711e261.js" crossorigin="anonymous"></script>
     <title>Gaming Central</title>
 </head>
 
 <body class="main-page">
+
+    <header>
+        <img src="img/logo-chico.png" alt="Logo de la empresa" class="logo">
+        <button class="openMenu" id="open">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
+        <nav class="nav" id="nav">
+            <button class="closeMenu" id="close">
+                <i class="fa-solid fa-xmark fa-rotate-180 fa-2xl"></i>
+            </button>
+            <ul class="navList">
+                <li><a href="">inicio</a></li>
+                <li><a href="Nosotros.html">sobre nosotros</a></li>
+                <li><a href="">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <!-- Carrusel -->
         <img src="img/RE4.jpg" alt="RE4" width="100%" height="600vh" id="myImage">
@@ -289,6 +308,7 @@
             duration: 1000
         });
     </script>
+    <script src="./js/buttonMenu.js"></script>
 </body>
 
 </html>
