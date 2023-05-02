@@ -48,7 +48,7 @@
 
 /* ESTILOS DEL NAVBAR */
 
-header {
+.header-nav {
     position: fixed;
     z-index: 2;
     display: flex;
@@ -292,7 +292,9 @@ header {
     height: 600px;
     overflow: hidden;
     margin-bottom: 30px;
+    padding-top: 60px;
 }
+
 
 .slider-frame ul {
     display: flex;
@@ -318,6 +320,7 @@ header {
         height: 300px;
         overflow: hidden;
         margin-bottom: 30px;
+        padding-top: 60px;
     }
     .slider-frame img {
         width: 100%;
@@ -396,12 +399,36 @@ header {
 /* Fin de estilos del main */
 
 /* estilo sobrenosotros */
+
+.main-us{
+    font-family: 'Press Start 2P', cursive;
+    background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
+}
+
+.nav-distance{
+    padding-top: 100px;
+}
+
+.about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 .claseh2{
     text-align: center;
     font-size: 1em;
     color: #e2d384;
     font-size: 30px;
-    
+    margin-top: 20px;
 }
 
 .claseh3{
@@ -409,7 +436,8 @@ header {
     font-size: 1em;
     color: #e2d384;
     font-size: 30px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -421,6 +449,8 @@ header {
     margin: auto;
     width: 90%;
     text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -429,10 +459,10 @@ header {
     height:124px;
     width:calc(500px / 4); 
     background:url('../img/control.png');
-    margin-top:10%;
     animation:animate 3s steps(4) infinite;
     
 }
+
 @keyframes animate{
     from{
         background-position: 0;
@@ -441,48 +471,6 @@ header {
         background-position: -500px;/* because total width of the image is 920px*/
     }
 }
-
-
-
-.bodynosotros{
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
-    }
-
-.header{
-        grid-area: header;
-        }
-    
-.grid-container-nosotros{
-        display: grid;
-        gap:10px;
-        text-align: center;
-        padding: auto;
-        grid-template-areas: 
-        "header" 
-    }
-    @media(min-width:600px){
-        .grid-container-nosotros{
-            grid-template-columns: 200px auto;
-            grid-template-rows:100px auto auto 100px;
-            grid-template-areas: 
-            "header header"; 
-
-        }
-    }
-    
-    @media(min-width:900px){
-        .grid-container-nosotros{
-            /* grid-template-columns: 200px 200px;
-            grid-template-rows:100px 50px 50px 100px;
-            grid-template-areas  */
-            grid-template: 
-            "header header header" 100px
-            200px auto;
-        }
-    }
-
 
 .sprite{
         margin: auto;
