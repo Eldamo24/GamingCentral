@@ -549,7 +549,7 @@
     @media only screen and (max-width: 1150px) {
 
         .main-form{
-            height: 130vh;
+            height: 100%;
             width: 100%;
         }
 
@@ -571,7 +571,7 @@
     @media only screen and (max-width: 600px) {
 
         .main-form{
-            height: 90vh;
+            height: 100%;
             width: 100%;
         }
     
