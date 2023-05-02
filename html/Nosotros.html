@@ -11,10 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Edu+NSW+ACT+Foundation:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" href="../img/control_1.ico" type="Image/x-icon">
+    <script src="https://kit.fontawesome.com/263711e261.js" crossorigin="anonymous"></script>
     <title>Nosotros</title>
 </head>
 <body class="bodynosotros grid-container-nosotros">
-   <header class="header">
+   <header class="header-nav">
+    <img src="../img/logo-chico.png" alt="Logo de la empresa" class="logo">
+        <button class="openMenu" id="open">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
+        <nav class="nav" id="nav">
+            <button class="closeMenu" id="close">
+                <i class="fa-solid fa-xmark fa-rotate-180 fa-2xl"></i>
+            </button>
+            <ul class="navList">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="Nosotros.html">sobre nosotros</a></li>
+                <li><a href="">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
     <!-- <h1>Gaming Central</h1> -->
     <br>
     <br>
@@ -37,7 +54,31 @@
     
     <div class="sprite"></div>
 
-</header>
-    
+
+</main>
+<footer>
+    <div class="container">
+        <div>
+            <img src="../img/logo-chico.png" alt="Logo de la empresa" width="200px">
+        </div>
+        <div>
+            <h2 class="footer-h2">Redes sociales</h2>
+            <ul class="footer-lists">
+                <li><i class='bx bxl-facebook-circle' style='color:#0e2ee6'></i><a href="#">Facebook</a></li>
+                <li><i class='bx bxl-instagram' style='color:rgba(228,10,81,0.86)'></i><a href="#">Instagram</a>
+                </li>
+                <li><i class='bx bxl-twitter' style='color:#128ae6'></i><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="footer-h2">Compañia</h2>
+            <ul class="footer-lists">
+                <li><a href="Nosotros.html">Conocenos</a></li>
+                <li><a href="#">Contactanos</a></li>
+                <li><a href="#">Politicas</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
