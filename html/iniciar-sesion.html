@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/control_1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/263711e261.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <title>Iniciar sesion</title>
+</head>
+
+<body>
+    <header class="header-nav">
+        <img src="../img/logo-chico.png" alt="Logo de la empresa" class="logo">
+        <button class="openMenu" id="open">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
+        <nav class="nav" id="nav">
+            <button class="closeMenu" id="close">
+                <i class="fa-solid fa-xmark fa-rotate-180 fa-2xl"></i>
+            </button>
+            <ul class="navList">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="Nosotros.html">sobre nosotros</a></li>
+                <li><a href="">contacto</a></li>
+                <li><a href="iniciar-sesion.html">Iniciar sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-form">
+        <div class="container-form">
+            <div class="form">
+                <h1 class="form-title">Iniciar sesion</h1>
+                <form action="../index.html">
+                    <div class="form-item">
+                        <label for="email"> Email: </label>
+                        <input type="email" name="email" id="email" minlength="3" maxlength="50" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="password">
+                            Password:
+                        </label><input type="password" name="password" id="password" minlength="8" maxlength="20"
+                        pattern="[A-Za-z0-9@#$%]{8,20}" title="Una contraseña válida es una cadena con una longitud entre 8 y 20 caracteres, donde cada uno consiste en una letra mayúscula o minúscula, un dígito, o los símboloss '@', '#', '$' y '%"  required>
+                    </div>
+                    <div class="button-form">
+                        <input type="submit" value="Iniciar sesion" class="card-button">
+                    </div>
+                </form>
+                <a href="#" class="a-form">Recuperar  contraseña</a>
+                <div>
+                    <p>No tienes cuenta? <a href="#">Registrate</a></p>
+                </div>
+            </div>
+            <div>
+                <img src="../img/logo-blanco.jpg" alt="" class="logo-responsive">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div>
+                <img src="../img/logo-chico.png" alt="Logo de la empresa" width="200px">
+            </div>
+            <div>
+                <h2 class="footer-h2">Redes sociales</h2>
+                <ul class="footer-lists">
+                    <li><i class='bx bxl-facebook-circle' style='color:#0e2ee6'></i><a href="#">Facebook</a></li>
+                    <li><i class='bx bxl-instagram' style='color:rgba(228,10,81,0.86)'></i><a href="#">Instagram</a>
+                    </li>
+                    <li><i class='bx bxl-twitter' style='color:#128ae6'></i><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer-h2">Compañia</h2>
+                <ul class="footer-lists">
+                    <li><a href="Nosotros.html">Conocenos</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Politicas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/buttonMenu.js"></script>
+</body>
+
+</html>
