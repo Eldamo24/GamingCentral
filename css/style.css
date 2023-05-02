@@ -462,6 +462,7 @@
     animation:animate 3s steps(4) infinite;
     
 }
+
 @keyframes animate{
     from{
         background-position: 0;
@@ -470,48 +471,6 @@
         background-position: -500px;/* because total width of the image is 920px*/
     }
 }
-
-
-
-.bodynosotros{
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
-    }
-
-.header{
-        grid-area: header;
-        }
-    
-.grid-container-nosotros{
-        display: grid;
-        gap:10px;
-        text-align: center;
-        padding: auto;
-        grid-template-areas: 
-        "header" 
-    }
-    @media(min-width:600px){
-        .grid-container-nosotros{
-            grid-template-columns: 200px auto;
-            grid-template-rows:100px auto auto 100px;
-            grid-template-areas: 
-            "header header"; 
-
-        }
-    }
-    
-    @media(min-width:900px){
-        .grid-container-nosotros{
-            /* grid-template-columns: 200px 200px;
-            grid-template-rows:100px 50px 50px 100px;
-            grid-template-areas  */
-            grid-template: 
-            "header header header" 100px
-            200px auto;
-        }
-    }
-
 
 .sprite{
         margin: auto;
