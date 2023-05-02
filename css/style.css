@@ -488,3 +488,106 @@
             background-position: -1400px;/* because total width of the image is 920px*/
         }
     }
+
+    /* Estilos iniciar sesion */
+    .main-form{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .container-form{
+        padding-top: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .form{
+        border: 1px solid #dec852;
+        border-radius: 10px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-item{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #1a1b20;
+    }
+
+    .button-form{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .a-form{
+        text-decoration: none;
+        color:#1a1b20;
+    }
+
+    .a-form:hover{
+        color: #dec852;
+    }
+
+    .form-title{
+        color: #1a1b20;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .logo-responsive{
+        width: 800px;
+    }
+
+    @media only screen and (max-width: 1150px) {
+
+        .main-form{
+            height: 130vh;
+            width: 100%;
+        }
+
+        .container-form{
+            padding-top: 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-responsive{
+            width: 600px;
+            margin-top: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+
+        .main-form{
+            height: 90vh;
+            width: 100%;
+        }
+    
+
+        .container-form{
+            padding-top: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .logo-responsive{
+            width: 300px;
+            margin-top: 30px;
+        }
+    
+    
+    }
