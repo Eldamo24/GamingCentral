@@ -1,11 +1,125 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-/* Estilos del footer */
-.container {
+  }
+  
+  .container-map{
+    margin: 20px;
+    margin-top: auto;
+  }
+  .mapa {
+    width: 100%;
+    height: 100%;
+    min-height: 355px;
+    margin-top: 150px;
+  }
+  
+  .textarea{
+    resize: none
+  }
+  .contact-form-container {
+    background-color: #e6deb7;
+    padding: 17px 30px 40px;
+    margin: 30px;
+    width: 25%;
+    margin-left: 38%;
+    border: 1px solid gray;
+  }
+  .contact-form-container .h2-formulario {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width: 480px) {
+    .contact-form-container .h2-formulario {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .contact-form-container .h2-formulario {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1440px) {
+    .contact-form-container .h2-formulario {
+      font-size: 25px;
+    }
+  }
+  .contact-form-container .form-input {
+    font-size: 14px;
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #eceded;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    color: #3e464b;
+  }
+  .contact-form-container .textarea {
+    max-width: 100%;
+    min-height: 25px;
+    max-height: 100px;
+  }
+  @media only screen and (max-width: 480px) {
+    .contact-form-container .form-input {
+      font-size: 5px;
+      margin-bottom: 2px;
+      padding: 5px 5px;
+    }
+    .contact-form-container .textarea {
+      max-width: 100%;
+      min-height: 5px;
+      max-height: 20px;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .contact-form-container .form-input {
+      font-size: 10px;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1440px) {
+    .contact-form-container .form-input {
+      font-size: 10px;
+      margin-bottom: 5px;
+      padding: 5px 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .mapa {
+      min-height: 200px;
+    }
+    .contact-form-container {
+      margin-top: 0px;
+      width: 50%;
+      margin-left: 25%;
+      padding: 10px 15px 15px;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .contact-form-container {
+      width: 50%;
+      margin-left: 24%;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1440px) {
+    .contact-form-container {
+      width: 30%;
+      margin-left: 35%;
+    }
+  } 
+  
+  
+  
+  
+  
+  
+  /* Estilos del footer */
+  .container{
     width: 100%;
     background-color: #1a1b20;
     color: #eaeaea;
@@ -13,42 +127,51 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.footer-lists {
+  }
+  
+  .footer-lists{
     text-align: center;
-}
-
-.footer-lists li {
+  }
+  
+  .footer-lists li{
     list-style-type: none;
     margin-top: 10px;
-}
-
-.footer-lists li a {
+  }
+  
+  .footer-lists li a{
     text-decoration: none;
     color: #eaeaea;
-}
-
-.footer-lists li a:hover {
+  }
+  
+  .footer-lists li a:hover{
     color: #e2d384;
-}
-
-.footer-h2 {
+  }
+  
+  .footer-h2{
     color: #dec852;
-}
-
-.bx {
+  }
+  
+  .bx{
     margin-right: 5px;
-    cursor: pointer;
-}
-
-#myImage {
-    margin-top: 93px;
-}
-
-/* ESTILOS DEL NAVBAR */
-
-header {
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .footer-h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }
+  
+  
+  
+  
+  
+  header {
     position: fixed;
     z-index: 2;
     display: flex;
@@ -57,61 +180,61 @@ header {
     padding: 20px;
     justify-content: space-between;
     width: 100%;
-}
-
-.logo {
+  }
+  
+  .logo {
     max-width: 100px;
-}
-
-.navList {
+  }
+  
+  .navList {
     display: flex;
     list-style-type: none;
     gap: 15px;
     text-transform: uppercase;
-}
-
-.navList li a {
+  }
+  
+  .navList li a {
     text-decoration: none;
     color: #eaeaea;
     padding: 8px 10px;
-}
-
-.navList li a:hover {
+  }
+  
+  .navList li a:hover {
     background-color: #e2d384;
     color: #1a1b20;
     padding: 8px 10px;
     border-radius: 4px;
     transition: 0.4s;
-}
-
-.openMenu,
-.closeMenu {
+  }
+  
+  .openMenu,
+  .closeMenu {
     display: none;
-}
-
-@media only screen and (max-width: 600px) {
+  }
+  
+  @media only screen and (max-width: 600px) {
     .container {
         display: flex;
         flex-direction: column;
     }
-
+  
     .footer-h2 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
+  
     #myImage {
         margin-top: 60px;
     }
-
-/* ESTILOS DEL NAVBAR MQ*/
-
+  
+  /* ESTILOS DEL NAVBAR MQ*/
+  
     .openMenu,
     .closeMenu {
         display: block;
     }
-
-
+  
+  
     .openMenu {
         display: flex;
         top: 3%;
@@ -127,19 +250,19 @@ header {
         border: none;
         position: absolute;
     }
-
+  
     .navList {
         gap: 50px;
         font-weight: bold;
     }
-
+  
     .navList li a {
         display: flex;
         flex-direction: column;
         position: absolute;
         left: 30%;
     }
-
+  
     .nav {
         display: flex;
         visibility: hidden;
@@ -153,350 +276,23 @@ header {
         width: 100%;
         top: 0px;
     }
-
+  
     nav.visible {
         opacity: 1;
         visibility: visible;
     }
-
+  
     .navList {
         flex-direction: column;
         align-items: end;
     }
-
+  
     .navList li a {
         color: #1a1b20;
     }
-
+  
     header{
         height: 60px;
         width: 100%;
     } 
-}
-
-/* Fin footer */
-
-/* estilos del main */
-
-.main-page {
-    background-color: #eaeaea;
-}
-
-.main-titles {
-    color: #1a1b20;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.grid-container {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: space-around;
-    padding: auto;
-}
-
-@media only screen and (max-width: 992px) {
-    .grid-container {
-        width: 100%;
-        grid-template-columns: repeat(3, auto);
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-    .grid-container {
-        width: 100%;
-        grid-template-columns: repeat(2, auto);
-
-   
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .grid-container {
-        width: 100%;
-        grid-template-columns: repeat(1, auto);
-    }
-
-    .payment-methods {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .different-methods {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-
-}
-
-/* Estilo de tarjetas */
-
-.card-container {
-    width: 250px;
-    height: 350px;
-    background-color: #1a1b20;
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.card-container:hover {
-    transform: scale(1.04);
-    box-shadow: 5px 5px 5px #dec852;
-}
-
-.card-img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.card-description {
-    margin-top: 30px;
-    text-align: center;
-    color: #e2d384;
-}
-
-.button-container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.card-button {
-    background-color: #e2d384;
-    color: #1a1b20;
-    border: none;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-.card-button:hover {
-    cursor: pointer;
-    background-color: #dec852;
-}
-
-.card-price {
-    margin-top: 30px;
-}
-
-/* Fin estilo de tarjetas */
-
-/* Carrusel */
-
-.slider-frame {
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-
-.slider-frame ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
-
-.slider-frame li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider-frame img {
-    width: 100%;
-    height: 600px;
-}
-
-@media only screen and (max-width: 768px) {
-
-    .slider-frame {
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-        margin-bottom: 30px;
-    }
-    .slider-frame img {
-        width: 100%;
-        height: 300px;
-    }
-}
-
-@keyframes slide {
-    0% {
-        margin-left: 0;
-    }
-
-    20% {
-        margin-left: 0;
-    }
-
-    25% {
-        margin-left: -100%;
-    }
-
-    45% {
-        margin-left: -100%;
-    }
-
-    50% {
-        margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    75% {
-        margin-left: -300%;
-    }
-
-    100% {
-        margin-left: -300%;
-    }
-}
-
-
-/* Fin carrusel */
-
-/* Medios de pago */
-
-.payment-methods {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: #dec852;
-}
-
-.different-methods {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.pay-cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.pay-cards img {
-    margin-right: 20px;
-    margin-top: 5px;
-}
-
-
-/* Fin de medios de pago */
-
-/* Fin de estilos del main */
-
-/* estilo sobrenosotros */
-.claseh2{
-    text-align: center;
-    font-size: 1em;
-    color: #e2d384;
-    font-size: 30px;
-    
-}
-
-.claseh3{
-    text-align: center;
-    font-size: 1em;
-    color: #e2d384;
-    font-size: 30px;
-
-}
-
-
-.clasep{
-    padding: 10px 15px 5px;
-    margin: 5px;
-    color: #eaeaea;
-    font-family: 'Pathway Extreme', sans-serif;
-    margin: auto;
-    width: 90%;
-    text-align: justify;
-
-}
-
-.control3{
-    margin: auto;
-    height:124px;
-    width:calc(500px / 4); 
-    background:url('../img/control.png');
-    margin-top:10%;
-    animation:animate 3s steps(4) infinite;
-    
-}
-@keyframes animate{
-    from{
-        background-position: 0;
-    }
-    to{
-        background-position: -500px;/* because total width of the image is 920px*/
-    }
-}
-
-
-
-.bodynosotros{
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
-    }
-
-.header{
-        grid-area: header;
-        }
-    
-.grid-container-nosotros{
-        display: grid;
-        gap:10px;
-        text-align: center;
-        padding: auto;
-        grid-template-areas: 
-        "header" 
-    }
-    @media(min-width:600px){
-        .grid-container-nosotros{
-            grid-template-columns: 200px auto;
-            grid-template-rows:100px auto auto 100px;
-            grid-template-areas: 
-            "header header"; 
-
-        }
-    }
-    
-    @media(min-width:900px){
-        .grid-container-nosotros{
-            /* grid-template-columns: 200px 200px;
-            grid-template-rows:100px 50px 50px 100px;
-            grid-template-areas  */
-            grid-template: 
-            "header header header" 100px
-            200px auto;
-        }
-    }
-
-
-.sprite{
-        margin: auto;
-        height:166px;
-        width:calc(1400px / 7); /* because there are 8 frames in one picture so i divide it by 8 with its original width to get 1 frame width */
-        background:url('../img/sprite.png');
-        margin-top:10%;
-        animation:animate 5s steps(7) infinite /* steps(8) means the animation will be done in 8 steps i do 8 steps because there are 8 images in 1 image */; 
-    }
-    @keyframes animate{
-        from{
-            background-position: 0;
-        }
-        to{
-            background-position: -1400px;/* because total width of the image is 920px*/
-        }
-    }
+  }

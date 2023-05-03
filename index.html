@@ -5,18 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/control_1.ico" type="image/x-icon">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="js/carrusel.js"></script>
-    <script src="https://kit.fontawesome.com/263711e261.js" crossorigin="anonymous"></script>
-    <title>Gaming Central</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="img/logo-chico.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Contacto</title>
 </head>
 
-<body class="main-page">
-
-    <header>
+<body>
+    <header class="header-nav">
         <img src="img/logo-chico.png" alt="Logo de la empresa" class="logo">
         <button class="openMenu" id="open">
             <i class="fa-solid fa-bars fa-2xl"></i>
@@ -26,262 +22,43 @@
                 <i class="fa-solid fa-xmark fa-rotate-180 fa-2xl"></i>
             </button>
             <ul class="navList">
-                <li><a href="">inicio</a></li>
-                <li><a href="Nosotros.html">sobre nosotros</a></li>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="html/Nosotros.html">sobre nosotros</a></li>
                 <li><a href="">contacto</a></li>
+                <li><a href="html/iniciar-sesion.html">Iniciar sesion</a></li>
             </ul>
         </nav>
     </header>
+    <section class="py-5">
 
-    <main>
-        <!-- Carrusel -->
-        <div class="slider-frame">
-            <ul>
-                <li><img src="img/RE4.jpg" alt=""></li>
-                <li><img src="img/atomicHeart.jpg" alt=""></li>
-                <li><img src="img/FFsop.jpg" alt=""></li>
-                <li><img src="img/onePiece.jpg" alt=""></li>
-            </ul>
+        <div class="container-map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.09783803187!2d-58.41793897542265!3d-34.60354300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbdf30f035ad%3A0xf6eaaa85688d1103!2sGaming%20City%20Abasto!5e0!3m2!1ses-419!2sus!4v1682120788938!5m2!1ses-419!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
         </div>
-        <!-- Fin del carrusel -->
-        <!-- Cuerpo de la pagina -->
-        <div class="main-titles" data-aos="fade-right">
-            <h1>Medios de pago</h1>
+
+        <div class="py-2">
+            <div>
+                <div class="contact-form-container">
+                    <h2 class="h2-formulario">Contactanos</h2>
+                    <form action="https://formsubmit.co/central.gaming2023@gmail.com" method="POST" onsubmit="return validarFormulario()">
+                        <input type="text" class="form-input" name="nombre" placeholder="Nombre" maxlength="30" required>
+                        <input type="text" class="form-input" name="email" placeholder="Email" required id="email">
+                        <input type="tel" class="form-input" name="telefono" placeholder="Telefono" id="telefono">
+                        <textarea name="mensaje" id="" cols="30" rows="10" class="form-input textarea"
+                            placeholder="Comentarios" maxlength="300"></textarea>
+                        <input type="submit" value="Enviar" class="form-input">
+                    </form>
+                </div>
+            </div>
+
         </div>
-        <div class="payment-methods" data-aos="fade-up">
-            <div class="different-methods">
-                <h3>
-                    Efectivo
-                </h3>
-                <img src="img/efectivo.png" alt="Efectivo" width="100px">
-            </div>
-            <div class="different-methods">
-                <h3>
-                    Debito y credito
-                </h3>
-                <div class="pay-cards">
-                    <img src="img/visa.png" alt="Visa" width="100px">
-                    <img src="img/masterCard.png" alt="Master card" width="100px">
-                    <img src="img/american.png" alt="American express" width="100px">
-                </div>
-            </div>
-            <div class="different-methods">
-                <h3>
-                    Mercado pago
-                </h3>
-                <img src="img/mercadoPago.png" alt="Mercado pago" width="100px">
-            </div>
-        </div>
-        <div class="main-titles" data-aos="fade-right">
-            <h1>Ultimas novedades</h1>
-        </div>
-        <div class="grid-container" data-aos="fade-up">
-            <div class="card-container">
-                <div>
-                    <img src="img/RE4.jpg" alt="RE4" width="100%" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Resident Evil 4 Remake
-                    </p>
-                    <p class="card-price">
-                        Precio: $22680
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/hogwarts.jpeg" alt="Hogwarts" width="100%" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Hogwarts legacy
-                    </p>
-                    <p class="card-price">
-                        Precio: $15750
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/atomicHeart.jpg" alt="Atomic heart" width="100%" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Atomic heart
-                    </p>
-                    <p class="card-price">
-                        Precio: $9625
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/FFsop.jpg" alt="Final Fantasy" width="100%" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Final Fantasy: Stranger of Paradise
-                    </p>
-                    <p class="card-price">
-                        Precio: $5250
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-        </div>
-        <div class="main-titles" data-aos="fade-right">
-            <h1>Accesorios gamer</h1>
-        </div>
-        <div class="grid-container" data-aos="fade-up">
-            <div class="card-container">
-                <div>
-                    <img src="img/teclado.jpg" alt="teclado" width="100%" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Teclado gamer inalambrico Redragon Deimos
-                    </p>
-                    <p class="card-price">
-                        Precio: $23999
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/mouse.webp" alt="mouse" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Mouse gamer GM-512
-                    </p>
-                    <p class="card-price">
-                        Precio: $13500
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/auriculares.jpg" alt="auriculares" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Auriculares para PC, PS4
-                    </p>
-                    <p class="card-price">
-                        Precio: $20300
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/monitor.jpg" alt="monitor" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Monitor gamer Fhd 27 Samsung
-                    </p>
-                    <p class="card-price">
-                        Precio: $46300
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-        </div>
-        <div class="main-titles" data-aos="fade-right">
-            <h1>Ofertas de la semana</h1>
-        </div>
-        <div class="grid-container" data-aos="fade-up">
-            <div class="card-container">
-                <div>
-                    <img src="img/onePiece.jpg" alt="One piece" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        One piece Odyssey
-                    </p>
-                    <p class="card-price">
-                        Precio: $10675
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/mass_effect.jpg_large" alt="Mass effect" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Mass Effect Legendary Edition
-                    </p>
-                    <p class="card-price">
-                        Precio: $11200
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/talesOfArise.jpg" alt="Tales of arise" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Tales of arise
-                    </p>
-                    <p class="card-price">
-                        Precio: $7000
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-            <div class="card-container">
-                <div>
-                    <img src="img/dmc5.jpg" alt="Devil may cry 5" width="100%" height="150px" class="card-img">
-                </div>
-                <div class="card-description">
-                    <p>
-                        Devil may cry 5
-                    </p>
-                    <p class="card-price">
-                        Precio: $4240
-                    </p>
-                </div>
-                <div class="button-container">
-                    <a href="#"><button type="button" class="card-button">Añadir al carrito</button></a>
-                </div>
-            </div>
-        </div>
-        <!-- Fin del cuerpo de la pagina -->
-    </main>
-    <footer>
+    </section>
+
+    
         <div class="container">
             <div>
                 <img src="img/logo-chico.png" alt="Logo de la empresa" width="200px">
@@ -290,9 +67,8 @@
                 <h2 class="footer-h2">Redes sociales</h2>
                 <ul class="footer-lists">
                     <li><i class='bx bxl-facebook-circle' style='color:#0e2ee6'></i><a href="#">Facebook</a></li>
-                    <li><i class='bx bxl-instagram' style='color:rgba(228,10,81,0.86)'></i><a href="#">Instagram</a>
-                    </li>
-                    <li><i class='bx bxl-twitter' style='color:#128ae6'></i><a href="#">Twitter</a></li>
+                    <li><i class='bx bxl-instagram' style='color:rgba(228,10,81,0.86)'  ></i><a href="#">Instagram</a></li>
+                    <li><i class='bx bxl-twitter' style='color:#128ae6'  ></i><a href="#">Twitter</a></li>
                 </ul>
             </div>
             <div>
@@ -304,14 +80,10 @@
                 </ul>
             </div>
         </div>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000
-        });
-    </script>
-    <script src="./js/buttonMenu.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script> 
 </body>
 
 </html>
