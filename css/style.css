@@ -591,3 +591,116 @@
     
     
     }
+
+    /* contacto */
+
+    .container-map{
+        margin: 20px;
+        margin-top: auto;
+      }
+      .mapa {
+        width: 100%;
+        height: 100%;
+        min-height: 355px;
+        margin-top: 150px;
+      }
+    
+      .textarea{
+        resize: none
+      }
+      .contact-form-container {
+        background-color: #e6deb7;
+        padding: 17px 30px 40px;
+        margin: 30px;
+        width: 25%;
+        margin-left: 38%;
+        border: 1px solid gray;
+      }
+      .contact-form-container .h2-formulario {
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        margin-bottom: 20px;
+      }
+      @media only screen and (max-width: 480px) {
+        .contact-form-container .h2-formulario {
+          font-size: 15px;
+          margin-bottom: 5px;
+        }
+      }
+      @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .contact-form-container .h2-formulario {
+          font-size: 20px;
+        }
+      }
+      @media only screen and (min-width: 769px) and (max-width: 1440px) {
+        .contact-form-container .h2-formulario {
+          font-size: 25px;
+        }
+      }
+      .contact-form-container .form-input {
+        font-size: 14px;
+        width: 100%;
+        background: #fcfcfc;
+        border: 1px solid #eceded;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+        color: #3e464b;
+      }
+      .contact-form-container .textarea {
+        max-width: 100%;
+        min-height: 25px;
+        max-height: 100px;
+      }
+      @media only screen and (max-width: 480px) {
+        .contact-form-container .form-input {
+          font-size: 5px;
+          margin-bottom: 2px;
+          padding: 5px 5px;
+        }
+        .contact-form-container .textarea {
+          max-width: 100%;
+          min-height: 5px;
+          max-height: 20px;
+        }
+      }
+      @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .contact-form-container .form-input {
+          font-size: 10px;
+          margin-bottom: 5px;
+          padding: 5px 10px;
+        }
+      }
+      @media only screen and (min-width: 769px) and (max-width: 1440px) {
+        .contact-form-container .form-input {
+          font-size: 10px;
+          margin-bottom: 5px;
+          padding: 5px 10px;
+        }
+      }
+    
+      @media only screen and (max-width: 480px) {
+        .mapa {
+          min-height: 200px;
+        }
+        .contact-form-container {
+          margin-top: 0px;
+          width: 50%;
+          margin-left: 25%;
+          padding: 10px 15px 15px;
+        }
+      }
+      @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .contact-form-container {
+          width: 50%;
+          margin-left: 24%;
+        }
+      }
+      @media only screen and (min-width: 769px) and (max-width: 1440px) {
+        .contact-form-container {
+          width: 30%;
+          margin-left: 35%;
+        }
+      } 
+
+    /* fin contacto */
