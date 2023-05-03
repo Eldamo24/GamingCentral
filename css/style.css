@@ -61,10 +61,24 @@
   color: #3e464b;
 }
 
+<<<<<<< HEAD
 .contact-form-container .textarea {
   max-width: 100%;
   min-height: 25px;
   max-height: 100px;
+=======
+/* ESTILOS DEL NAVBAR */
+
+.header-nav {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    background-color: #1a1b20;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+>>>>>>> 02038f29e3feb8c239f52d0453072fff7962c93a
 }
 
 @media only screen and (max-width: 480px) {
@@ -126,3 +140,421 @@
 
 /* fin contacto */
 
+<<<<<<< HEAD
+=======
+/* estilos del main */
+
+.main-page {
+    background-color: #eaeaea;
+}
+
+.main-titles {
+    color: #1a1b20;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+    padding: auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .grid-container {
+        width: 100%;
+        grid-template-columns: repeat(3, auto);
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        width: 100%;
+        grid-template-columns: repeat(2, auto);
+
+   
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        width: 100%;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .payment-methods {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .different-methods {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+/* Estilo de tarjetas */
+
+.card-container {
+    width: 250px;
+    height: 350px;
+    background-color: #1a1b20;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-container:hover {
+    transform: scale(1.04);
+    box-shadow: 5px 5px 5px #dec852;
+}
+
+.card-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-description {
+    margin-top: 30px;
+    text-align: center;
+    color: #e2d384;
+}
+
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-button {
+    background-color: #e2d384;
+    color: #1a1b20;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card-button:hover {
+    cursor: pointer;
+    background-color: #dec852;
+}
+
+.card-price {
+    margin-top: 30px;
+}
+
+/* Fin estilo de tarjetas */
+
+/* Carrusel */
+
+.slider-frame {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-frame img {
+    width: 100%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .slider-frame {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        padding-top: 60px;
+    }
+    .slider-frame img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+
+/* Fin carrusel */
+
+/* Medios de pago */
+
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #dec852;
+}
+
+.different-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-cards img {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/* Fin de medios de pago */
+
+/* Fin de estilos del main */
+
+/* estilo sobrenosotros */
+
+.main-us{
+    font-family: 'Press Start 2P', cursive;
+    background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
+}
+
+.nav-distance{
+    padding-top: 100px;
+}
+
+.about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.claseh2{
+    text-align: center;
+    font-size: 1em;
+    color: #e2d384;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.claseh3{
+    text-align: center;
+    font-size: 1em;
+    color: #e2d384;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.clasep{
+    padding: 10px 15px 5px;
+    margin: 5px;
+    color: #eaeaea;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.control3{
+    margin: auto;
+    height:124px;
+    width:calc(500px / 4); 
+    background:url('../img/control.png');
+    animation:animate 3s steps(4) infinite;
+    
+}
+
+@keyframes animate{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -500px;/* because total width of the image is 920px*/
+    }
+}
+
+.sprite{
+        margin: auto;
+        height:166px;
+        width:calc(1400px / 7); /* because there are 8 frames in one picture so i divide it by 8 with its original width to get 1 frame width */
+        background:url('../img/sprite.png');
+        margin-top:10%;
+        animation:animate 5s steps(7) infinite /* steps(8) means the animation will be done in 8 steps i do 8 steps because there are 8 images in 1 image */; 
+    }
+    @keyframes animate{
+        from{
+            background-position: 0;
+        }
+        to{
+            background-position: -1400px;/* because total width of the image is 920px*/
+        }
+    }
+
+    /* Estilos iniciar sesion */
+    .main-form{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .container-form{
+        padding-top: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .form{
+        border: 1px solid #dec852;
+        border-radius: 10px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-item{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #1a1b20;
+    }
+
+    .button-form{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .a-form{
+        text-decoration: none;
+        color:#1a1b20;
+    }
+
+    .a-form:hover{
+        color: #dec852;
+    }
+
+    .form-title{
+        color: #1a1b20;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .logo-responsive{
+        width: 800px;
+    }
+
+    @media only screen and (max-width: 1150px) {
+
+        .main-form{
+            height: 100%;
+            width: 100%;
+        }
+
+        .container-form{
+            padding-top: 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-responsive{
+            width: 600px;
+            margin-top: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+
+        .main-form{
+            height: 100%;
+            width: 100%;
+        }
+    
+
+        .container-form{
+            padding-top: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .logo-responsive{
+            width: 300px;
+            margin-top: 30px;
+        }
+    
+    
+    }
+>>>>>>> 02038f29e3feb8c239f52d0453072fff7962c93a
