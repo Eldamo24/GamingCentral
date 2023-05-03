@@ -5,24 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo-chico.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="../img/logo-chico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://kit.fontawesome.com/263711e261.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
 
 <body>
+    <header class="header-nav">
+        <img src="../img/logo-chico.png" alt="Logo de la empresa" class="logo">
+        <button class="openMenu" id="open">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
+        <nav class="nav" id="nav">
+            <button class="closeMenu" id="close">
+                <i class="fa-solid fa-xmark fa-rotate-180 fa-2xl"></i>
+            </button>
+            <ul class="navList">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="Nosotros.html">sobre nosotros</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="iniciar-sesion.html">Iniciar sesion</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="py-5">
+
             <div class="container-map">
+
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.09783803187!2d-58.41793897542265!3d-34.60354300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbdf30f035ad%3A0xf6eaaa85688d1103!2sGaming%20City%20Abasto!5e0!3m2!1ses-419!2sus!4v1682120788938!5m2!1ses-419!2sus"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
             </div>
+
             <div class="py-2">
                 <div>
                     <div class="contact-form-container">
@@ -43,7 +63,35 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <div>
+                <img src="../img/logo-chico.png" alt="Logo de la empresa" width="200px">
+            </div>
+            <div>
+                <h2 class="footer-h2">Redes sociales</h2>
+                <ul class="footer-lists">
+                    <li><i class='bx bxl-facebook-circle' style='color:#0e2ee6'></i><a href="#">Facebook</a></li>
+                    <li><i class='bx bxl-instagram' style='color:rgba(228,10,81,0.86)'></i><a href="#">Instagram</a>
+                    </li>
+                    <li><i class='bx bxl-twitter' style='color:#128ae6'></i><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer-h2">Compañia</h2>
+                <ul class="footer-lists">
+                    <li><a href="Nosotros.html">Conocenos</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Politicas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/buttonMenu.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
