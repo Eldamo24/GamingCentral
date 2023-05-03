@@ -1,298 +1,316 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container-map{
-    margin: 20px;
-    margin-top: auto;
-  }
-  .mapa {
-    width: 100%;
-    height: 100%;
-    min-height: 355px;
-    margin-top: 150px;
-  }
-  
-  .textarea{
-    resize: none
-  }
-  .contact-form-container {
-    background-color: #e6deb7;
-    padding: 17px 30px 40px;
-    margin: 30px;
-    width: 25%;
-    margin-left: 38%;
-    border: 1px solid gray;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* contacto */
+
+.container-map {
+  margin: 20px;
+  margin-top: auto;
+}
+
+.mapa {
+  width: 100%;
+  height: 100%;
+  min-height: 355px;
+  margin-top: 150px;
+}
+
+.textarea {
+  resize: none
+}
+
+.contact-form-container {
+  background-color: #e6deb7;
+  padding: 17px 30px 40px;
+  margin: 30px;
+  width: 25%;
+  margin-left: 38%;
+  border: 1px solid gray;
+}
+
+.contact-form-container .h2-formulario {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
   .contact-form-container .h2-formulario {
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
-  @media only screen and (max-width: 480px) {
-    .contact-form-container .h2-formulario {
-      font-size: 15px;
-      margin-bottom: 5px;
-    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contact-form-container .h2-formulario {
+    font-size: 20px;
   }
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .contact-form-container .h2-formulario {
-      font-size: 20px;
-    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+  .contact-form-container .h2-formulario {
+    font-size: 25px;
   }
-  @media only screen and (min-width: 769px) and (max-width: 1440px) {
-    .contact-form-container .h2-formulario {
-      font-size: 25px;
-    }
-  }
+}
+
+.contact-form-container .form-input {
+  font-size: 14px;
+  width: 100%;
+  background: #fcfcfc;
+  border: 1px solid #eceded;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  color: #3e464b;
+}
+
+.contact-form-container .textarea {
+  max-width: 100%;
+  min-height: 25px;
+  max-height: 100px;
+}
+
+@media only screen and (max-width: 480px) {
   .contact-form-container .form-input {
-    font-size: 14px;
-    width: 100%;
-    background: #fcfcfc;
-    border: 1px solid #eceded;
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    color: #3e464b;
+    font-size: 5px;
+    margin-bottom: 2px;
+    padding: 5px 5px;
   }
+
   .contact-form-container .textarea {
     max-width: 100%;
-    min-height: 25px;
-    max-height: 100px;
+    min-height: 5px;
+    max-height: 20px;
   }
-  @media only screen and (max-width: 480px) {
-    .contact-form-container .form-input {
-      font-size: 5px;
-      margin-bottom: 2px;
-      padding: 5px 5px;
-    }
-    .contact-form-container .textarea {
-      max-width: 100%;
-      min-height: 5px;
-      max-height: 20px;
-    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contact-form-container .form-input {
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
   }
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .contact-form-container .form-input {
-      font-size: 10px;
-      margin-bottom: 5px;
-      padding: 5px 10px;
-    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+  .contact-form-container .form-input {
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
   }
-  @media only screen and (min-width: 769px) and (max-width: 1440px) {
-    .contact-form-container .form-input {
-      font-size: 10px;
-      margin-bottom: 5px;
-      padding: 5px 10px;
-    }
+}
+
+@media only screen and (max-width: 480px) {
+  .mapa {
+    min-height: 200px;
   }
-  
-  @media only screen and (max-width: 480px) {
-    .mapa {
-      min-height: 200px;
-    }
-    .contact-form-container {
-      margin-top: 0px;
-      width: 50%;
-      margin-left: 25%;
-      padding: 10px 15px 15px;
-    }
+
+  .contact-form-container {
+    margin-top: 0px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px 15px 15px;
   }
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .contact-form-container {
-      width: 50%;
-      margin-left: 24%;
-    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contact-form-container {
+    width: 50%;
+    margin-left: 24%;
   }
-  @media only screen and (min-width: 769px) and (max-width: 1440px) {
-    .contact-form-container {
-      width: 30%;
-      margin-left: 35%;
-    }
-  } 
-  
-  
-  
-  
-  
-  
-  /* Estilos del footer */
-  .container{
-    width: 100%;
-    background-color: #1a1b20;
-    color: #eaeaea;
-    padding: 20px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+  .contact-form-container {
+    width: 30%;
+    margin-left: 35%;
+  }
+}
+
+/* fin contacto */
+
+
+
+
+/* Estilos del footer */
+.container {
+  width: 100%;
+  background-color: #1a1b20;
+  color: #eaeaea;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-lists {
+  text-align: center;
+}
+
+.footer-lists li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.footer-lists li a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+.footer-lists li a:hover {
+  color: #e2d384;
+}
+
+.footer-h2 {
+  color: #dec852;
+}
+
+.bx {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
   }
-  
-  .footer-lists{
-    text-align: center;
+
+  .footer-h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  
-  .footer-lists li{
-    list-style-type: none;
-    margin-top: 10px;
-  }
-  
-  .footer-lists li a{
-    text-decoration: none;
-    color: #eaeaea;
-  }
-  
-  .footer-lists li a:hover{
-    color: #e2d384;
-  }
-  
-  .footer-h2{
-    color: #dec852;
-  }
-  
-  .bx{
-    margin-right: 5px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
-  
-    .footer-h2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-  }
-  
-  
-  
-  
-  
-  header {
-    position: fixed;
-    z-index: 2;
+}
+
+
+
+
+
+header {
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  background-color: #1a1b20;
+  padding: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  text-transform: uppercase;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #eaeaea;
+  padding: 8px 10px;
+}
+
+.navList li a:hover {
+  background-color: #e2d384;
+  color: #1a1b20;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.openMenu,
+.closeMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
     display: flex;
-    align-items: center;
-    background-color: #1a1b20;
-    padding: 20px;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
   }
-  
-  .logo {
-    max-width: 100px;
+
+  .footer-h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  
-  .navList {
-    display: flex;
-    list-style-type: none;
-    gap: 15px;
-    text-transform: uppercase;
+
+  #myImage {
+    margin-top: 60px;
   }
-  
-  .navList li a {
-    text-decoration: none;
-    color: #eaeaea;
-    padding: 8px 10px;
-  }
-  
-  .navList li a:hover {
-    background-color: #e2d384;
-    color: #1a1b20;
-    padding: 8px 10px;
-    border-radius: 4px;
-    transition: 0.4s;
-  }
-  
+
+  /* ESTILOS DEL NAVBAR MQ*/
+
   .openMenu,
   .closeMenu {
-    display: none;
+    display: block;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-  
-    .footer-h2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-  
-    #myImage {
-        margin-top: 60px;
-    }
-  
-  /* ESTILOS DEL NAVBAR MQ*/
-  
-    .openMenu,
-    .closeMenu {
-        display: block;
-    }
-  
-  
-    .openMenu {
-        display: flex;
-        top: 3%;
-        left: 90%;
-        color: #eaeaea;
-    }
-    .closeMenu {
-        display: flex;
-        flex-direction: column;
-        top: 4%;
-        left: 89%;
-        background-color: #e2d384;
-        border: none;
-        position: absolute;
-    }
-  
-    .navList {
-        gap: 50px;
-        font-weight: bold;
-    }
-  
-    .navList li a {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 30%;
-    }
-  
-    .nav {
-        display: flex;
-        visibility: hidden;
-        position: absolute;
-        align-items: center;
-        gap: 20px;
-        background-color: #e2d384;
-        min-height: 797px;
-        height: 100vh;
-        left: 0;
-        width: 100%;
-        top: 0px;
-    }
-  
-    nav.visible {
-        opacity: 1;
-        visibility: visible;
-    }
-  
-    .navList {
-        flex-direction: column;
-        align-items: end;
-    }
-  
-    .navList li a {
-        color: #1a1b20;
-    }
-  
-    header{
-        height: 60px;
-        width: 100%;
-    } 
+
+
+  .openMenu {
+    display: flex;
+    top: 3%;
+    left: 90%;
+    color: #eaeaea;
   }
+
+  .closeMenu {
+    display: flex;
+    flex-direction: column;
+    top: 4%;
+    left: 89%;
+    background-color: #e2d384;
+    border: none;
+    position: absolute;
+  }
+
+  .navList {
+    gap: 50px;
+    font-weight: bold;
+  }
+
+  .navList li a {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+  }
+
+  .nav {
+    display: flex;
+    visibility: hidden;
+    position: absolute;
+    align-items: center;
+    gap: 20px;
+    background-color: #e2d384;
+    min-height: 797px;
+    height: 100vh;
+    left: 0;
+    width: 100%;
+    top: 0px;
+  }
+
+  nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navList {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .navList li a {
+    color: #1a1b20;
+  }
+
+  header {
+    height: 60px;
+    width: 100%;
+  }
+}
