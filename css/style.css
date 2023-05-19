@@ -99,7 +99,7 @@
     width: 80%;
     height: 100%;
     margin: 0px auto 87px;
-    background-color: #e2d384;
+    background-color: #e6deb7;
 }
  
 .news-article {
@@ -130,12 +130,14 @@
     margin: -84px 0px 0px 216px;
 }
 .news-title {
+    font-family: 'Bebas Neue', sans-serif;
     margin-top: 15px;
     margin-left: -1px;
     margin: -14px 0px 0px -1px;
 }
 
 .news-description{
+    font-family: 'Pathway Extreme', sans-serif;
     text-align: left;
     margin-top: 19px;
     margin: 44px auto 0px;
@@ -279,10 +281,11 @@
 /* estilos del main */
 
 .main-page {
-    background-color: #eaeaea;
+    background-image:linear-gradient(to top, #000000 0%, #050505 100%);
 }
 
 .main-titles {
+    font-family: 'Bebas Neue', sans-serif;
     color: #1a1b20;
     text-align: center;
     margin-bottom: 30px;
@@ -355,6 +358,7 @@
 }
 
 .card-description {
+    font-family: 'Bebas Neue', sans-serif;
     margin-top: 30px;
     text-align: center;
     color: #e2d384;
@@ -501,7 +505,7 @@
 /* estilo sobrenosotros */
 
 .main-us{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     background-image:linear-gradient(to top, #000000 0%, #050505 100%);       
 }
 
@@ -575,8 +579,8 @@
 .sprite{
         margin: auto;
         height:166px;
-        width:calc(1400px / 7); /* because there are 8 frames in one picture so i divide it by 8 with its original width to get 1 frame width */
-        background:url('../img/sprite.png');
+        width:calc(1456px / 7); /* because there are 8 frames in one picture so i divide it by 8 with its original width to get 1 frame width */
+        background:url('../img/sprite2.png');
         margin-top:10%;
         animation:animate 5s steps(7) infinite /* steps(8) means the animation will be done in 8 steps i do 8 steps because there are 8 images in 1 image */; 
     }
@@ -585,12 +589,13 @@
             background-position: 0;
         }
         to{
-            background-position: -1400px;/* because total width of the image is 920px*/
+            background-position: -1456px;/* because total width of the image is 920px*/
         }
     }
 
     /* Estilos iniciar sesion */
     .main-form{
+        background-image:linear-gradient(to top, #000000 0%, #050505 100%);
         height: 100vh;
         width: 100%;
     }
@@ -604,6 +609,7 @@
     }
 
     .form{
+        font-family: 'Bebas Neue', sans-serif;
         border: 1px solid #dec852;
         border-radius: 10px;
         padding: 30px;
@@ -618,7 +624,7 @@
         justify-content: space-between;
         margin-top: 20px;
         margin-bottom: 20px;
-        color: #1a1b20;
+        color: #e2d384;
     }
 
     .button-form{
@@ -629,7 +635,7 @@
 
     .a-form{
         text-decoration: none;
-        color:#1a1b20;
+        color:#e2d384;
     }
 
     .a-form:hover{
@@ -637,7 +643,7 @@
     }
 
     .form-title{
-        color: #1a1b20;
+        color: #e2d384;
         margin-bottom: 50px;
         margin-top: 10px;
     }
@@ -695,6 +701,7 @@
     /* contacto */
 
     .container-map{
+        background-image:linear-gradient(to top, #000000 0%, #050505 100%);
         margin: 20px;
         margin-top: auto;
       }
@@ -717,6 +724,7 @@
         border: 1px solid gray;
       }
       .contact-form-container .h2-formulario {
+        font-family: 'Bebas Neue', sans-serif;
         font-size: 30px;
         text-align: center;
         color: black;
