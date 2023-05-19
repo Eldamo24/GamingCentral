@@ -297,7 +297,7 @@
     padding: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     .grid-container {
         width: 100%;
         grid-template-columns: repeat(3, auto);
@@ -305,12 +305,104 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 844px) {
+
+    .news-container  {
+        width: 80%;
+        height: 100%;
+        margin: 0px 0px 0px 88px;
+        background-color: #e2d384;
+        padding-bottom: 178px;
+    }
+    .news-block {
+        margin: 123px auto 5px;
+        height: 235px;
+    }  
+    .news-article {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 35px;
+    } 
+    .news-title {
+        margin: -24px 41px 0px 0px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .news-content{
+        margin: 130px 0px 0px 15px;
+    }
+    
+    .news-title {
+        margin: -24px 41px 0px 0px;
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    .news-description{
+        text-align: left;
+        margin: 31px 16px 0px 0px;
+    }
+
+    .img-news {
+        width: 79px;
+        height: 124px;
+        left: 15px;
+        top: 20px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 721px) {
     .grid-container {
         width: 100%;
         grid-template-columns: repeat(2, auto);
+    }
 
-   
+    .general-container {
+        background-color: #1a1b20;
+    }
+    
+    .news-container  {
+        width: 80%;
+        height: 100%;
+        margin: 0px auto 87px;
+        background-color: #e2d384;
+    }
+    
+    .news-article {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: -88px;
+    } 
+    
+    .news-block {
+        margin: 96px 0px 42px 5px;
+        height: fit-content;
+    }
+    
+    .img-news {
+        width: 79px;
+        height: 124px;
+        left: 15px;
+        top: 20px;
+        position: relative;
+    }
+    
+    .news-content{
+        margin: -77px 20px -33px 244px;
+        width: 285px;
+    }
+    .news-title {
+        margin: -24px 41px 0px 0px;
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    .news-description{
+        text-align: left;
+        margin: 31px 16px 0px 0px;
     }
 }
 
@@ -331,6 +423,53 @@
     }
 
 
+}
+
+@media only screen and (max-width: 391px) {
+    .news-container  {
+        width: 80%;
+    height: 100%;
+    margin: 0px auto 0px 45px;
+    background-color: #e2d384;
+    padding-bottom: 178px;
+    }
+    .general-container {
+        background-color: #1a1b20;
+    }
+     
+    .news-article {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: -88px;
+    } 
+    
+    .news-block {
+        margin: 68px auto 5px;
+        height: 600px;
+    }
+    
+    .img-news {
+        width: 79px;
+        height: 124px;
+        left: 15px;
+        top: 20px;
+        position: relative;
+    }
+    
+    .news-content{
+        margin: 132px 0px 0px 15px;
+    }
+    .news-title {
+        margin: -24px 41px 0px 0px;
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    .news-description{
+        text-align: left;
+        margin: 31px 16px 0px 0px;
+    }
 }
 
 /* Estilo de tarjetas */
