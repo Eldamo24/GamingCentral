@@ -655,6 +655,8 @@
 .card-img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    height: 200px;
+    width: 100%;
 }
 
 .card-description {
