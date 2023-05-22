@@ -923,6 +923,10 @@
         justify-content: center;
     }
 
+    .p-form{
+        color: #e2d384;
+    }
+
     .form-item{
         display: flex;
         justify-content: space-between;
