@@ -146,7 +146,6 @@
 
 .main-page {
     background-color: #eaeaea;
-    /*background-image:linear-gradient(to top, #000000 0%, #050505 100%);*/
 }
 
 .main-titles {
@@ -1006,7 +1005,6 @@
     /* contacto */
 
     .container-map{
-        background-image:linear-gradient(to top, #000000 0%, #050505 100%);
         margin: 20px;
         margin-top: auto;
       }
