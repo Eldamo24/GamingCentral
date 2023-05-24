@@ -13,7 +13,7 @@ La pagina de inicio consta del Navbar con acceso al resto de las paginas. Debajo
 Contiene 4 imagenes que se deslizan automaticamente durante un lapso de tiempo determinado. La pagina continua con una seccion en la que se encuentran descriptos los medios de pago
 que aceptara el e-commerce.
 El cuerpo de la pagina esta compuesto principalmente por una seccion de cards que contienen la imagen y el titulo de un juego, mas un boton de "ver mas". Estas cards son generadas
-mediante un ciclo for creado mediante vue.js. La info de las cards es extraida de la api rawg (https://rawg.io/apidocs) que contiene informacion e imagenes de videojuegos.
+mediante un ciclo for creado mediante vue.js. La info de las cards es extraida de la api rawg (https://rawg.io/apidocs) que contiene informacion e imagenes de videojuegos. Las cards, ademas, tienen una transformacion aplicada que sucede al pasar el mouse sobre ellas. 
 Por ultimo tenemos el footer, el cual contiene el logo de la pagina mas una seccion de enlaces a redes sociales que no llevan a ningun lado, e informacion sobre la compañia.
 
 Por su parte, la pagina de noticias cuenta tambien con el navbar (el cual se repetira en todas las paginas), y una seccion con noticas de videojuegos. Seguido a ellas se encuentra el footer,
