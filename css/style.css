@@ -173,7 +173,7 @@
 }
 
 
-@media only screen and (max-width: 1910px) {
+@media only screen and (max-width: 1920px) {
     .grid-container {
         width: 100%;
         grid-template-columns: repeat(3, auto);
@@ -208,7 +208,7 @@
     }
 
     .news-content{
-        margin: -18% 0px 0px 43%;
+        margin: -17% 0px 0px 31%;
         width: 56%;
         font-size: revert;
     }
@@ -219,7 +219,7 @@
     }
 
     .img-news {
-        width: 40%;
+        width: 28%;
         height: 270px;
         left: 15px;
         top: -4%;
@@ -262,7 +262,7 @@
     }
 
     .news-content{
-        margin: -21% 0px 0px 43%;
+        margin: -21% 0px 0px 31%;
         width: 56%;
         font-size: revert;
     }
@@ -273,7 +273,7 @@
     }
 
     .img-news {
-        width: 40%;
+        width: 28%;
         height: 270px;
         left: 15px;
         top: -4%;
