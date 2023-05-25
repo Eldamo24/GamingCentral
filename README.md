@@ -31,3 +31,20 @@ queda pendiente de realizacion.
 
 Una caracterisitica que tienen en comun todas las paginas, es que son totalmente responsive. La pagina completa se adapta al tamaño de pantalla de cualquier dispositivo. Consta con varios puntos
 de corte para que no haya ningun problema en ningun tamaño. 
+
+## Colaboradores 👥
+
+El equipo detrás de GamingCentral está conformado por profesionales dedicados a ofrecer una experiencia interesante a nuestros usuarios:
+
+
+### FullStack
+| Foto | Nombre |
+|------|--------|
+| <img src="https://avatars.githubusercontent.com/u/96299789?v=4" width="40" height="40"/> | Damian Lobos | 
+| <img src="https://avatars.githubusercontent.com/u/104108635?v=4" width="40" height="40"/> | Julio Dalmau | 
+| <img src="https://avatars.githubusercontent.com/u/111540114?v=4" width="40" height="40"/> | Franco Pruzzo |
+| <img src="https://avatars.githubusercontent.com/u/108032079?v=4" width="40" height="40"/> | Ignacio Ramos |
+
+## Deploy
+
+https://gamingcentral23.netlify.app/
